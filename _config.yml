@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Lei's Learning Hub
+title: A nobody's View
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to track my technical learnings.
+  This is a blog site created to track my thoughts. It is still under constructions. I am trying to grow as it grows.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
@@ -25,7 +25,7 @@ paginate_path:  "/blog/page:num"
 
 # Build settings
 markdown: kramdown
-theme: bulma-clean-theme
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
